@@ -13,7 +13,7 @@
 
 <template>
     <h1>Login</h1>
-    <form @submit.prevent="$event => authStore.handleLogin(formData)"  action="">
+    <form @submit.prevent="$event => authStore.handleLogin(formData)">
         <div>
         <label for="email">Email</label>
         <input type="email" id="email" v-model="formData.email">
